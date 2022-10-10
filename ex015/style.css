@@ -1,0 +1,16 @@
+
+        body{
+            background-color:lightyellow;
+
+        }
+        h1{
+            color: hsl(0, 0%, 0%);
+            background-color: red;
+        }
+        h2{
+            color: crimson;
+
+        }
+        p{
+            text-align: center;
+        }

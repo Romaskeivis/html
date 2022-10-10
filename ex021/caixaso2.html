@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+         body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+         }
+         header{
+            background-color: white;
+            padding:10px;
+            margin: 10px;
+         }
+         h1{
+            box-shadow: inset -1px 1px 9px 1px rgba(0, 0, 0, 0.527);
+         }
+         nav{
+            background-color:rgb(165, 164, 164);
+            padding: 3px;
+            box-shadow: -4px 4px 6px 3px black;
+         }
+         nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 30px;
+          
+         }
+         nav > a:hover{
+            text-decoration: underline;
+         }
+         main{
+            background-color: white;
+            padding:10px;
+            margin: 10px;
+         }
+         article{
+            background-color: lightgrey;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgb(163, 163, 163);
+        }
+         footer{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 1px;
+            margin: 0%;
+         }
+         footer > p{
+            margin: 4px;
+         }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticiias">
+            <article>
+                <h2>Notícias sobre o Brasl</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro aspernatur corporis reprehenderit assumenda ipsa numquam molestias qui error sit impedit animi, quaerat voluptates. Perspiciatis atque, nihil ab qui autem quidem?</p>
+                <aside>
+                    <p> Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido po FROG</p>
+    </footer>
+</body>
+</html>

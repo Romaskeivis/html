@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color:red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+        a::before{
+            content: ' leia';
+            font-size: 0.7em;
+            color: blue;
+            font-weight: lighter;
+        }
+        .especial::before{
+            content: '☛';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.git.io" target="_blank" rel="external">repositorio git</a></li>
+        <li><a href="https://youtube.com/cursoemvideo"  target="_blank" rel="external">canal no you tube</a></li>
+        <li><a href="file:///C:/Users/Mauro/Documents/exercicios%20filipe/site01/site01/index.html"  target="_blank" rel="external" class="especial">filipe</a></li>
+    </ul>
+</body>
+</html>
